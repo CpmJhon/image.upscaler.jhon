@@ -1,0 +1,23 @@
+{
+  "name": "image-upscaler",
+  "version": "1.0.0",
+  "description": "Ultra HD Image Upscaler with iloveimg API",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "form-data": "^4.0.0",
+    "multiparty": "^4.2.3"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
